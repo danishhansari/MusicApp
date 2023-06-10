@@ -7,7 +7,7 @@ import searchImg from '../img/search.png'
 
 function Search() {
   return (
-    <div className="search relative h-[65rem] px-[5rem] bg-[#081730] pt-[18rem] pb-[10rem] mt-[-5rem] z-[-2] flex items-center justify-between rounded-b-[5rem]">
+    <div className="search relative h-[50rem] px-[5rem] bg-[#081730] pt-[18rem] pb-[10rem] mt-[-5rem] z-[-2] flex items-center justify-between rounded-b-[5rem]">
       {/* Left Side */}
       <div className="left flex-1">
         <img
