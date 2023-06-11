@@ -14,12 +14,13 @@ const Hero = () => {
       left: "7rem",
     },
     false: {
-      left: "19rem",
+      left: "11rem",
     },
   };
   const musicPlayer = {
     true: {
       left: "295px",
+      left:"200px"
     },
     false: {
       left: "235px",
@@ -27,18 +28,18 @@ const Hero = () => {
   };
   const rect = {
     true: {
-      left: "11rem",
+      left: "5rem",
     },
     false: {
-      left: "13rem",
+      left: "10rem",
     },
   }
   const heart = {
     true: {
-      left: "9rem",
+      left: "3rem",
     },
     false: {
-      left: "12.5rem",
+      left: "9rem",
     },
   };
   return (
@@ -90,7 +91,7 @@ const Hero = () => {
         }}
           src={p2}
           alt=""
-          className="absolute top-[235rem] left-[94px] w-[175px]"
+          className="absolute top-[235rem] left-[94px] w-[175px] z-[13] bg-red-500"
         />
 
         <motion.img

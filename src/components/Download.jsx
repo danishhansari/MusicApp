@@ -2,7 +2,7 @@ import DownloadAds from "./DownloadAds";
 import Path from '../img/Path318.png'
 function Download() {
   return (
-    <div className="flex flex-col items-center justify-start px-[5rem] bg-[#020917] h-[48rem] pt-[18rem] mt-[-10rem] relative z-[0] rounded-b-[5rem]">
+    <div className="flex flex-col items-center justify-start px-[5rem] bg-[#020917] h-[58rem] pt-[18rem] mt-[-10rem] relative z-[-3] rounded-b-[5rem] ">
       {/* tild icon or path icon */}
       <img src={Path} alt="" className="w-[5rem]" />
       {/* heading */}
